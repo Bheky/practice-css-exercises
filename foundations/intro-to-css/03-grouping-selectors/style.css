@@ -1,0 +1,29 @@
+/* Shared styles for both elements */
+.element1, .element2 {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    border: 2px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+    transition: transform 0.1s ease, background-color 0.1s ease;
+}
+
+/* Clicking effect */
+.element1:active, .element2:active {
+    transform: scale(0.95);
+    background-color: lightgray;
+}
+
+/* Unique styles for element 1 */
+.element1 {
+    background-color: black;
+    color: white;
+}
+
+/* Unique styles for element 2 */
+.element2 {
+    background-color: yellow;
+    color: black;
+}
